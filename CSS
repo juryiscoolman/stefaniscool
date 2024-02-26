@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding 0px;
+}
+.body {
+  Background-color: black;
+  Height: 60px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+
+  flex-direction: column;
+  
+  
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.header-logo{
+  color: white;
+   border-radius: 8px;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 6px;
+  display: flex;
+  Justify-content: flex-start;
+  height: 100px;
+  width: 500px;
+  
+  
+ 
+ 
+}
+.header-link1,.header-link2,.header-link3 {
+color: white;
+font-size: 18px;
+display: flex;
+ padding: 10px;
+ margin: 10px;
+width: 150px;
+ Justify-content: flex-end;
+  font-weight: bolder;
+}
+     {
+  
+}
+.middle {
+  Background-color: white;
+  Height: 500px;
+  font-family: 'Times New Roman', sans-serif;
+  
+}
+.headermain {
+  font-size: 50px;
+  color: black;
+  font-weight: bolder;
+ 
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.headerabout {
+  font-size: 20px;
+  color: black;
+  Font-family: "roboto", sans-serif;
+  padding: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.middle button {
+    width: 300px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.section2 {
+  display: flex;
+  background-color: darkgrey;
+  height: 400px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.s2title {
+  font-size: 40px;
+  font-weight: bolder;
+  color: Black;
+ 
+}
+.Cards{
+    display: flex;
+    justify-content: center;
+
+}
+.card1,.card2,.card3,.card4 {
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+    width: 150px;
+    height: 140px;
+    margin: 16px;
+    border: 8px solid darkred;
+}
+.card1 img,.card2 img,.card3 img,.card4 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card_info p{
+    width: 150px;
+    text-wrap: wrap;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    margin: 16px;
+}   
+}
+.next {
+  background-color: white;
+  height: 300px;
+}
+.footer {
+  background-color: black;
+  height: 60px;
+}
+.l{
+  margin: 100px;
+  color: white;
+  text-align: center;
+  Font-family: "Arial" serif;
+  padding: 20px;
+  font-size: 20px;
+  
+}
